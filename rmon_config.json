@@ -1,0 +1,9 @@
+# test
+{
+    # test
+    # json data must use "", do not use '' 
+    "SQLALCHEMY_DATABASE_URI": "mysql://root@localhost:3306/shiyanlou",
+    "DEBUG": "1"
+    
+
+}
