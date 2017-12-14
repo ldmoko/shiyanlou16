@@ -1,7 +1,7 @@
 # test
 {
     # test
-    # json data must use "", do not use '' 
+    # json data must use <"双引号">, do not use <'单引号'> 
     "SQLALCHEMY_DATABASE_URI": "mysql://root@localhost:3306/shiyanlou",
     "DEBUG": "1"
     
