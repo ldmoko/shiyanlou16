@@ -6,7 +6,7 @@ from flask import Flask
 def create_app():
     app = Flask('rmon')
     # print(app.config)
-    file = os.environ.get('RMON_CONFIG')
+    file = os.environ.get('RMON_CONFIG') # 需在shell里export RMON_CONFIG='.../rmon_config.json'绝对路径
     # print(file)
     content =''
     try:
